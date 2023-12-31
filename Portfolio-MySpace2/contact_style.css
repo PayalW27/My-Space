@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+
+}
+
+#heading{
+    background-color: #D7E482;
+    height: 80px;
+}
+
+#h1{
+    color: #000;  
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 11.2px;
+    padding-top: 20px;
+}
+
+#h2{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10.92px;
+    margin-top: 150px;
+    margin-right: 600px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 200px;
+}
+
+#para2{
+    color: white;
+    font-size: 20px;
+    font-family: Istok Web;
+    font-weight: 400;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+    margin-top: 20px;
+}
+
+form{
+  padding-bottom: 40px;
+}
+
+#contact_form{
+    background-color: rgba(217, 217, 217, 0.08);
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    position: absolute;
+    z-index: 30;
+    margin-top: 70px;
+}
+
+
+.info{
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+#message{
+    height: 90px;
+}
+
+.label{
+    font-family: Istok Web;
+    color: white;
+}
+
+#button_2{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-family: istok web;
+    font-size: 18px;
+    background-color: #E8FF5A;
+    margin-top: 40px;
+    margin-left: 95px;
+}
+
+#button_2:hover{
+    background-color: rgba(232, 255, 90, 0.60);
+}
+
+#button_2:active{
+    font-size: 20px;
+    transform: scale(1, 1);
+}
+
+#back_button{
+ 
+    height: 30px;
+    width: 100px;
+    margin-top: 440px;
+    margin-left: 60px;
+    font-family: istok web;
+    font-size: 18px;
+    background-color: #E8FF5A;
+    border: none;
+    border-radius: 5px;
+}
+
+#back_button:hover{
+    background-color: rgba(232, 255, 90, 0.60);
+}
+
+#back_button:active{
+    font-size: 20px;
+    transform: scale(1, 1);
+}

@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+#header{
+    background-color: rgba(86, 86, 86, 1);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;   
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.6px;
+
+}
+
+#home{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#resume{
+  margin-left: 850px;
+}
+
+#contact{
+    margin-left: 60px;
+}
+
+#container{
+    height: 650px;
+    width: 1289px;
+    position: absolute;
+    margin-top: 70px;
+
+}
+
+#hobbies{
+    height: 500px;
+    width: 1289px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.hobby img{
+    height: 400px;
+    width: 200px;
+}
+
+.hobby p{
+    font-size: 25px;
+    letter-spacing: 10%;
+    font-family: Istok Web;
+    text-align: center;
+}
+
+#hobby-title {
+   font-family: Istok web;
+   font-size: 46px;
+   letter-spacing: 12.88px;
+   position: absolute;
+   margin-top: 550px;
+   left: 50px;
+}
+
+#box1{
+    height: 35px;
+    width: 600px;
+    background-color: #656565;
+    position: absolute;
+    top: 700px;
+}
+
+#box2{
+    height: 260px;
+    width: 180px;
+    background-color: #656565;
+    position: absolute;
+    top: 600px;
+    left: 1114px;
+}
+
+#skills{
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills p{
+    position: absolute;
+    font-family: Istok Web;
+    letter-spacing: 12.88px;
+    font-size: 46px;
+    top: 40px;
+}
+
+
+#skill-boxes{
+    height: 460px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Front-end-skill{
+    height: 100px;
+    width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#list1{
+    font-family: Istok web; 
+    color: #302b2b;
+    font-size: 20px; 
+    letter-spacing: 1px; 
+    text-align: center;
+    word-spacing: 15px;   
+}
+
+#box3{
+    height: 2px;
+    width: 400px;
+    background-color: #656565;
+    position: absolute;
+    bottom: 453px;
+}
+
+.UI-UX-skill{
+    height: 100px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#list2{
+    font-family: Istok web; 
+    color: #302b2b;
+    font-size: 20px; 
+    letter-spacing: 1px; 
+    text-align: center;  
+    word-spacing: 15px; 
+}
+
+#education{
+    height: 630px;
+    width: 1289px;
+    position: absolute;
+    top: 1290px;
+    display: flex;
+    justify-content: center;
+}
+
+#education p{
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 46px;
+    letter-spacing: 12.88px;
+    position: absolute;
+    top: 50px;
+}
+
+#E-container{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#education-img{
+    height: 350px;
+    width: 200px;
+
+}
+
+#box4{
+    height: 350px;
+    width: 10px;
+    background-color: #565656;
+
+}
+
+#Education-list{
+    font-family: Istok Web;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(43, 43, 43);
+
+}
+
+#box5{
+    height: 6px;
+    width: 800px;
+    background-color: #8b8888;
+    position: absolute;
+    top: 1880px;
+    left: 250px;
+}
+
+#achivement{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 1950px;
+}
+
+#achivement p{
+    color: rgb(26, 26, 26);
+    font-family: Istok Web;
+    letter-spacing: 12.88px;
+    font-size: 46px;
+    text-align: center;
+}
+
+#A-container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 220px;
+    margin-top: 40px;
+    
+}
+
+.A-boxes{
+    height: 100px;
+    width: 400px;
+    margin-left: 160px;
+    background-color: #656565;
+}
+
+
+.A-boxes span{
+    color: white;
+    font-family: Istok Web;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#box6{
+    height: 365px;
+    width: 10px;
+    background-color: #b6b6b6;
+    position: absolute;
+    left: 830px;
+
+}
+
+
+#box7{
+    height: 5px;
+    width: 100%;
+    background-color: #656565;
+    position: absolute;
+    top: 2460px;
+}
+
+#para{
+    height: 160px;
+    width: 630px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 2550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 350px;
+}
+
+#para span{
+    font-size: 22px;
+    text-align: center;
+    font-family: Istok Web;   
+}
+
+
+#get-in-touch{
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 2780px;
+    left: 450px;
+    bottom: 100px;
+}
+
+
+#touch-content span{
+    font-family: Istok Web;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+#icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    padding-top: 20px;
+}
+
+#email-icon{
+    font-size: 34px;
+    color: rgb(43, 43, 43);
+}
+
+
+#insta-icon{
+    font-size: 34px;
+    color: rgb(43, 43, 43);
+}
+
+#linkedin-icon{
+    font-size: 33px;
+    color: rgb(43, 43, 43);
+}
+

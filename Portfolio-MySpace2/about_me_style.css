@@ -1,0 +1,107 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+#header{
+    background-color: rgba(86, 86, 86, 1);
+    height: 70px;
+    width: 100%;
+    position: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.6px;
+
+
+}
+
+#home{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#resume{
+  margin-left: 850px;
+}
+
+#contact{
+    margin-left: 60px;
+}
+
+#b2{
+    background-color: #A8A8A8;
+    border-width: 1px;
+    height: 300px;
+    width: 50px;
+    position: absolute;
+    z-index: 20;
+    margin-top: 250px;
+}
+
+ #photo2{
+    height: 350px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 990px;
+    position: absolute;
+ }
+
+ #text3{
+    color: black;
+    text-align: right;
+    font-family: Istok Web;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 12.88px;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 685px;
+ }
+
+ #para1{
+    color: #000;
+    font-family: Istok Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 80px;
+ }
+
+ #button_2{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #9F9F9F;
+    border-color: #9F9F9F;
+    position: absolute;
+    padding: 8px 22px;
+    margin-top: 500px;
+    margin-left: 1135px;
+    font-family: Istok Web;
+    font-size: 19px;
+ }
+
+#button_2:hover{
+    background-color: #E8FF5A;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    border-color: #E8FF5A;
+}
